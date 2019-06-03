@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>홈페이지 만들기</title>
+<style type="text/css">
+	*{
+		padding:0;
+		margin:0;
+		font-family: 
+	}
+	li{
+		list-style-type: none;
+	}
+	.clear{
+		clear:both;
+	}
+	header{
+		width:1000px;
+		height:100px;
+		margin-top:10px;
+	}
+
+	nav{
+		width:1000px;
+		height:70px;
+		margin-top:10px;
+	}
+
+	nav ul{
+		float:left;
+		margin: 20px 50px;
+	}
+
+
+	section{
+		float:left;
+		margin-top:10px;
+	}
+	aside{
+		float:left;
+		margin-left:30px;
+		margin-top:10px;
+		padding-left:25px;
+	}
+
+	aside li{
+		margin-bottom:20px;
+	}
+
+	footer{
+		width:1000px;
+		height:100px;
+		margin-top:10px;
+	}
+
+	#logo{
+		margin-top:20px;
+		float:left;
+	}
+
+	#top{
+		float:right;
+		margin:30px 20px 0 0 ;
+	}
+
+	#address{
+		float: left;
+		margin: 30px 0 0 20px;
+	}
+
+	#customer{
+		float:right;
+		margin:30px 0 0 180px;
+	}
+
+	#page{
+		width:1000px;
+		margin:auto;
+
+	}
+	.dropdown{
+			display:inline-block;
+			
+			height:250px;
+			width:1000px;
+
+		}
+		.dropdownContents{
+			display:none;
+			background: #fff;			
+			width:auto;
+			position:absolute;
+			margin: 10px auto;
+			padding: auto
+
+			
+		}
+		.dropdown:hover .dropdownContents{
+			display:block;
+			background: #fff;
+			color:#ccc;
+		}
+		.dropdown:hover{
+			background: #fff;
+		}
+		.dropdown:hover ul{
+			border-bottom:1px #000 solid;
+		}
+
+</style>
+</head>
+<body>
+	<div id="page">
+<header>
+	<div id="logo">
+	봄 여행 주간 4.27~5.12
+	</div>
+	<div id="top">로그인 | 회원가입 | 마이페이지 | 고객센터</div>
+</header>
+<div id="clear"></div> <!-- float 속성 해제-->
+<nav>
+	<div class="dropdown">
+	<ul>여행주간이란?
+		<div class="dropdownContents">
+			<li>여행주간이란?</li>
+			<li>참여기관 모집</li>
+		</div>
+
+	</ul>
+
+	
+	<ul>여행주간프로그램
+		<div class="dropdownContents">
+		<li>테마여행</li>
+		<li>지역여행</li>
+		</div>
+	</ul>
+
+
+	<ul>여행정보
+		<div class="dropdownContents">
+		<li>취향여행 20선</li>
+		<li>지역 축제/행사</li>
+		<li>추천여행정보</li>
+		<li>유용한 여행 사이트</li>
+		</div>
+	</ul>
+
+
+		<ul>특별혜택
+			<div class="dropdownContents">
+		<li>핵심할인혜택</li>
+		<li>공공할인혜택</li>
+		</div>
+	</ul>
+
+
+		<ul>이벤트
+			<div class="dropdownContents">
+		<li>진행중인 이벤트</li>
+		<li>종료된 이벤트</li>
+		</div>
+	</ul>
+</div>
+	
+</nav>
+<div id="clear"></div> <!-- float 속성 해제-->
+	<section>
+		<img src="./img/main1.png" width="810">
+	</section>
+	<aside>
+		<ul>
+			<li>마을여행</li>
+			<li>핵심혜택</li>
+			<li>이벤트</li>
+			<li>대한민국 구석구석</li>
+		</ul>
+	</aside>
+	<div id="clear"></div> <!-- float 속성 해제-->
+	<section>
+		<img src="./img/travel.png" width="1000">
+	</section>
+	<footer>
+		<div id="address">
+			주최 : 문화체육관광부 <br>
+			주관 : 한국관광공사, 한국관광협회중앙회, 전국지방자체단체
+		</div>
+		<div id="customer">
+			관광안내전화 : 국번없이 1330
+		</div>
+	</footer>
+
+
+
+</div>
+</body>
+</html>
