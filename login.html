@@ -1,0 +1,670 @@
+<!-- ul은 크기조정이 불가능?
+	 -->
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>노랑풍선 [여행을 가볍게]</title>
+	<style type="text/css">
+		*{
+			font-weight: bold;
+			font-family: '고딕체';
+		}
+		body{
+			position: relative;
+			width:100%;
+			margin:0;
+			padding:0;
+			font-size:15px;
+
+		}
+
+		ul, li{
+			list-style-type: none;
+		}
+		a{
+			border:none;
+			color:#000;
+			text-decoration: none;
+		}
+		a>img{
+			border:none;
+		}
+		.fl{
+			float: left;
+		}
+		.fr{
+			float: right;
+		}
+		/*	header*****************************/
+		header{
+			
+			height:158px;
+			width: 100%;
+			background: #fff;
+			
+			border-bottom:0px solid #222;
+			
+		}
+		/*top-block****************************/
+		.top-block-background{
+			width:100%;
+			border: #ccc 0px solid;
+			background-color:#f3f3f3;
+		}
+		.top-block{
+			width:1200px;
+			margin:0 auto;
+			position: relative;
+
+		}
+		.top-block-right{
+			border: #ccc 0px solid;
+			float: right;
+			margin:5px 0;
+
+			
+			
+			
+		}
+		.top-block-right li{
+			display:inline;
+			margin-right: 10px;
+			font-weight: 500;
+
+		}
+		.top-block-right li:hover{
+			border-bottom: #000 1px solid;
+			cursor:pointer;
+		}
+		.top-block-right a{
+			color:#000;
+			text-decoration: none;
+		}
+/*top-banner****************************/
+		.top-banner{
+			width:1200px;
+			margin:0 auto;
+			position: relative;
+			height: 10px;
+			border:#00f solid 0px;
+		}
+		.top-banner-left{
+
+		}
+		.top-banner-list{
+			border: #ccc 1px solid;
+			margin-top:15px;
+			
+			color:#aaa;
+		}
+		.top-banner-list ul {
+			display: inline;
+			padding-right: 20px;
+			padding-left: 0;
+			
+
+
+		}
+		.top-banner-list ul:hover {
+			display: inline;
+			color: #111;
+			cursor:pointer;
+
+		}
+		.top-banner-left img{
+			float: left;
+			margin-right: 25px;
+		}
+		.top-banner-list{
+			border: #ccc 0px solid;
+			padding:10px 0;
+			float:left;
+
+
+		}
+/*top-banner-right*/
+		.top-banner-right-warp{
+			float:right;
+			
+
+		
+			
+		}
+		.top-banner-right{
+			border-bottom:#000 1px solid;
+			float: right;
+			width:200px;
+			margin-top:15px;
+			height: 34px;
+			
+		}      
+		.top-banner-right > img{
+			height: ;
+			right: 150px;
+			position: absolute;
+			
+		}
+
+		.top-banner-right >#img1:hover{
+				cursor: pointer;
+		}
+		.top-banner-right >#img1{
+				opacity: 0;
+				
+		}
+		.top-banner-right:hover #img1{
+			opacity: 1;
+		}
+		/*2*/
+		.top-banner-right2{
+			
+			float:right;
+			width:41px;
+			
+			
+			
+		} 
+		.top-banner-right2 > img{
+			margin-top:14px;
+			
+			position: absolute;
+			
+			
+		}
+
+		.top-banner-right2 >#img2:hover{
+				cursor: pointer;
+				opacity: 1;
+		}
+		.top-banner-right2 >#img2{
+				opacity: 0;
+		/*3*/
+		}
+		.top-banner-right3{
+			margin-top:12px;
+			float:right;
+			
+			
+		}
+		.top-banner-right3:hover{
+			cursor: pointer;
+		}
+/*bottom****************************/
+		.top-banner-bottom-background{
+			margin-top: 80px;
+			width: 100%;
+			height: 40px;				
+			background-color: #222;
+			font-size: 13px;
+			font-weight: bolder;
+			border: 0px #f00 solid;
+			position: relative;
+			
+			
+
+
+		}
+		.top-banner-bottom{
+			margin: 0 auto;
+			width:1200px;
+			height: 40px;
+			position: relative;
+			border: 0px #fff dotted;
+		}
+		.top-banner-bottom-left{
+			float: left;			
+			color:#fff;
+			margin-top:-4px;
+			padding: 0;
+			border: 0px #f0f solid;
+			
+		}
+		.top-banner-bottom-left >ul{
+			display: inline-block;
+			padding: 0;
+			margin-left: 10px;
+
+			padding-bottom:8px; 
+			
+		}
+		.top-banner-bottom-left > ul:hover{
+			color: #ffcb31;
+			border-bottom: 2px #ffcb31 solid;
+			cursor:pointer;
+			
+		}
+
+		/*right*/
+		#top-banner-bottom-right{
+			margin-top:10px;
+			padding:0;
+			float: right;			
+			color: #ccc;
+			border: 0px solid #fff;
+			
+		}
+		#top-banner-bottom-right :hover{
+			color:#ccc;
+
+		}
+		#top-banner-bottom-right li{
+			display: inline;
+			padding-right: 8px;
+			cursor:pointer;
+		}
+		#top-banner-bottom-right li:hover{
+			color:#fff;
+
+		}
+		.top-banner-bottom-right{
+			
+			
+			
+
+		}
+
+
+
+/**************************************************************************/
+		section{
+
+			width:1200px;
+			height: 1000px;
+			margin:0 auto;
+			padding: 0;
+			border:0px  solid #f00;
+			position: relative;
+			top:-18px;
+}
+
+
+/*****************************/
+/*****************************/
+/*****************************/
+/*****************************/
+footer{
+	background: #333;
+	color:#aaa;
+
+	height: 494px;
+	
+}
+.footer-top{
+	margin:0 auto;
+	width:1200px;
+	height: 59px;
+	
+}
+.footer-top li{
+	display:inline;
+	font-weight: 15px;
+	margin-right:5px;
+
+}
+.footer-top ul{
+	padding:4px 0;
+
+}
+.footer-top >ul .strong{
+	color:#ffb431;
+
+}
+.footer-top .fr img{
+	width:33px;
+	height:33px
+}
+.fotter-top .fr{
+	padding:0px;
+}
+.footer-top .fl li{
+	cursor:pointer;
+}
+
+
+.footer-bottom{
+	width:1200px;
+	margin:0 auto;
+	position: relative;
+}
+.footer-bottom .left > p {
+	margin:0 0 10px 0;
+	font-size:12px;
+}
+.footer-bottom .left h3{
+	color:#fff;
+	font-size:14px;
+	margin-top: 40px
+
+}
+.footer-bottom .left >h3> span{
+	margin-left:10px;
+}
+.footer-bottom .left >h3> span img{
+	margin-bottom:-3px;	
+}
+.footer-bottom .email{
+	text-decoration:underline;
+}
+.footer-bottom .email:hover{
+	cursor:pointer;
+}
+.footer-bottom-border-top{
+	border-top:1px #555 solid; 
+}
+.footer-bottom .left{
+	width:700px;
+	border-right:1px solid #555;
+	margin:0;
+	padding: 0;
+}
+.footer-bottom .right{
+	float: right;
+	width:480px;
+	margin-top:-238px;
+	padding:0;
+}
+.footer-bottom .right p span{
+	color:#fff;
+	margin-left: 10px;
+	font-size:16px;
+}
+.top-banner-bottom-left ul div img{
+	position: absolute;
+	display: ;
+	width:1200px;
+	height: 0px;
+	margin-top:11px;
+	z-index: 1;
+	opacity: ;
+}
+.top-banner-bottom-left ul:hover div img{
+	display:block;
+	height:400px;
+	transition: height 0.5s;
+	
+	z-index: 5;
+}
+
+.top-banner-bottom-left .d2{
+	margin-left:-39px;
+}
+.top-banner-bottom-left .d3{
+	margin-left:-95px;
+}
+.top-banner-bottom-left .d4{
+	margin-left:-134px;
+}
+.top-banner-bottom-left .d5{
+	margin-left:-170px;
+}
+.top-banner-bottom-left .d6{
+	margin-left:-293px;
+}
+.top-banner-bottom-left .d7{
+	margin-left:-360px;
+}
+.top-banner-bottom-left .d8{
+	margin-left:-465px;
+}
+.top-banner-bottom-left .d9{
+	margin-left:-595px;
+}
+.top-banner-bottom-left .d9 img{
+	margin-top:;
+
+}
+.top-banner-bottom-left ul div li{
+	position: absolute;
+	width:100%;
+	height: 100%;
+	/*background: #000;*/
+	
+	
+}
+section {
+	z-index: 0;
+	height: 800px;
+	width:1200px;
+	margin-top:20px;
+	/*background-image: url("./img/login.png");*/
+	background-size: 1200px; 
+
+
+}
+.loginbox{
+	margin: auto;
+	width:1200px;
+	height: 600px;
+	border:1px solid #000;
+	background-image: linear-gradient(#f3f3f3,#fff,#f3f3f3)
+
+}
+table{
+	font-size: 17px;
+	margin: 150px auto;
+
+}
+input[type="text"],input[type="password"]{
+	width: 450px;
+	height: 30px;
+}
+button[type="submit"]{
+	height: 90px;
+	width: 140px;
+	background:#ffc72c;
+	font-size:16px;
+}
+h1{
+	font-size: 30px;
+
+}
+p .fr{
+	font-size: 15px;
+	color:#888;
+
+}
+
+table .tdfontsize{
+ font-size: 15px;
+color:#555;
+}
+table .tdfontcolor{
+	color:#555;
+}
+
+
+	</style>
+</head>
+<body>
+	<div class="warpper">
+	<header>
+	<div class="top-block-background">
+		<div class="top-block">
+		<img src="./img/kosdaq.png">
+		<ul class="top-block-right">
+			<li><a href="./login.html">로그인</a></li>
+			<li><a href="sign-in.html">회원가입</a></li>
+			<li>예약확인/결제</li>
+			<li>기업/단체문의</li>
+			<li>고객센터</li>
+		</ul>
+		</div>
+	</div><!--top-block-background-->
+	<div class="top-banner">
+	<div class="top-banner-left">
+		<a href="index.html"><img src="./img/topbanner.png"></a>
+		<div class="top-banner-list">
+			<ul class="u1">해외패키지</ul>
+			<ul>프리미엄</ul>
+			<ul>자유여행</ul>
+			<ul>테마여행</ul>
+			<ul>국내여행</ul>
+			<ul>부산/대구/무안</ul>
+			<ul>항공권</ul>
+			<ul>호텔</ul>
+		</div>
+	</div>
+	<div class="top-banner-right-wrap">
+		<div class="top-banner-right3">
+		<img src="./img/topbannerright3.png">
+		</div>
+		<div class="top-banner-right2">
+			<img src="./img/topbannerright2before.png">
+			<img src="./img/topbannerright2.png" id="img2">
+			</div>
+		<div class="top-banner-right">
+			<img src="./img/topbannerrightbefore.png">
+			<img src="./img/topbannerright.png" id="img1">
+		</div>
+
+	</div><!--top-banner-right-->
+</div><!--top-banner-->
+
+	<div class="top-banner-bottom-background">
+		<div class="top-banner-bottom">
+		<div class="top-banner-bottom-left">
+			<ul>유럽
+				<div class="d1">
+					<li><img src="./img/topbottomli1.png"></li>
+				</div>
+			</ul>
+			<ul>동남아
+			<div class="d2">
+					<li><img src="./img/topbottomli2.png"></li>
+				</div>
+			</ul>
+			<ul>일본
+			<div class="d3">
+					<li><img src="./img/topbottomli3.png"></li>
+				</div>
+			</ul>
+			<ul>중국
+			<div class="d4">
+					<li><img src="./img/topbottomli4.png"></li>
+				</div>
+			</ul>
+			<ul>홍콩/마카오/대만
+			<div class="d5">
+					<li><img src="./img/topbottomli5.png"></li>
+				</div>
+			</ul>
+			<ul>괌/사이판
+			<div class="d6">
+					<li><img src="./img/topbottomli6.png"></li>
+				</div>
+			</ul>
+			<ul>호주/뉴질랜드
+			<div class="d7">
+					<li><img src="./img/topbottomli7.png"></li>
+				</div>
+			</ul>
+			<ul>미국/캐나다/중남미
+			<div class="d8">
+					<li><img src="./img/topbottomli8.png"></li>
+				</div></ul>
+
+			<ul>인도/아프리카
+			<div class="d9">
+					<li><img src="./img/topbottomli9.png"></li>
+				</div>
+			</ul>
+		</div>
+		<div class="top-banner-bottom-right">
+		<ul id="top-banner-bottom-right">
+			<li>노랑TV</li>
+			<li>땡처리항공권</li>
+			<li>기획전</li>
+			<li>이벤트</li>
+		</ul>
+		</div>
+	</div>
+	</div> <!-- top-banner-bottom-->
+
+	
+ 
+<section>
+	<p><span class="fr">홈&nbsp; > &nbsp;로그인</span></p>
+	<br>
+<h1>로그인</h1>
+<div class="loginbox">
+	
+	<table border="0">
+		<tr>
+			<td><span class="tdfontcolor">아이디&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+			<td><input type="text" name="" placeholder="아이디를 입력하세요"></td>
+			<th rowspan="2"><a href="index.html"><button type="submit">로그인</button></a></td>
+		</tr>
+		<tr>
+			<td><span class="tdfontcolor">비밀번호&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+			<td><input type="password" name="" placeholder="비밀번호를 입력하세요"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><span class="tdfontsize"><label><input type="checkbox" name="">아이디 저장</label><span class="fr"><a href="searchid.html">아이디/비밀번호 찾기</a> | <a href="sign-in.html">회원가입</a></span></span></td>
+		</tr>
+
+	</table>
+
+</div>
+</section>	
+	<footer>
+		<div class="footer-top">
+			<ul class="fl">
+				<li>회사소개 |</li>
+				<li class="strong">개인정보처리방침</li>
+				<li>| 인터넷회원규정</li>
+				<li>| 여행약관</li>
+				<li>| 여행자보험</li>
+				<li>| 대리점안내</li>
+				<li>| 신문광고</li>
+				<li>| 오시는 길</li>
+			</ul>
+			<ul class="fr">
+				<a href="https://www.facebook.com/yellowballoonofficial/" target="_blank"><img src="./img/facebook.jpg"></a>
+				<a href="https://www.instagram.com/yellowballoon_official/" target="_blank"><img src="./img/instagram.jpg"></a>
+				<a href="https://pf.kakao.com/_hhAxbd" target="_blank"><img src="./img/kakaotalk.jpg"></a>
+				<a href="https://story.kakao.com/ch/yellowballoon" target="_blank"><img src="./img/kakaostory.jpg"></a>
+				<a href="https://blog.naver.com/yb_tour" target="_blank"><img src="./img/naverblog.jpg"></a><!--40-->
+				<a href="https://post.naver.com/myProfile.nhn?memberNo=1173675" target="_blank"><img src="./img/naverpost.jpg"></a>
+				<a href="https://www.youtube.com/user/ybtour2013" target="_blank"><img src="./img/youtube.jpg"></a>
+			</ul>
+		</div>
+		<div class="footer-bottom-border-top">
+		<div class="footer-bottom">
+		<div class="left">
+		<h3>(주)노랑풍선<span class="kosdaq"><img src="./img/footerkosdaq.png" height="17px"></span></h3>
+		<p>대표이사 김인중 | 서울특별시 중구 수표로 31, 노랑풍선빌딩
+		<br>
+		사업자등록번호 104-81-64440 | 관광사업자등록증번호 제2006-000003호
+		<br>
+		통신판매업신고번호 제2008-서울중구-0278 사업자 정보확인</p>
+		
+		<p>대표전화 1544-2288 | 이메일 <span class="email">master@ybtour.com</span></a>
+		<br>
+		영업배상책임보험가입 총 20억원, 인허가보증보험가입 5억원, 한국관광협회중앙회 여행공제회 공제영업보증가입 10억원</p>
+		
+		<p>[부산지사] 사업자등록번호 605-85-38384 | 부산광역시 진구 중앙대로 708 부산 파이낸스센터 13층
+		<br>
+		[대구지사] 사업자등록번호 504-85-41062 | 대구광역시 중구 달구벌대로 2095 11층 (삼성생명빌딩)
+		<br>
+		&copy;YBTOUR., All Rights Reserved.</p>
+		</div>
+		<div class="right">
+			<h5>상담 대표번호</h5>
+		<p>여행/호텔 상담<span>1544-2288</span>&nbsp;&nbsp;부산지사<span>051-710-7744</span></p>
+		<p>항공권 상담 &nbsp;&nbsp;&nbsp;<span>1644-3399</span>&nbsp;&nbsp;대구지사<span>053-720-7744</span></p>
+		<!-- <p>
+		<p><span>고객센터</span><span>챗봇상담지역별 직통 상담번호 안내 여행시 참고할 사이트GO
+		</p> -->
+		</div>
+		</div>
+		</div>
+
+	</footer>
+</div>
+</body>
+</html>
