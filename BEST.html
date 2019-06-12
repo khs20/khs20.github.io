@@ -319,7 +319,7 @@
 		section{
 
 			width:1200px;
-			height: 2700px;
+			height: 1470px;
 			margin:0 auto;
 			padding: 0;
 			border:0px  solid #f00;
@@ -618,10 +618,10 @@
 /*main3*****************************/
 .main3{
 	position: relative;
-	top:400px;
+	top:480px;
 }
 .main3 > h1{
-	margin: 60px 0 30px 0;
+	margin: 60px 0 20px 0;
 	text-align: center;
 	font-size:28px;
 }
@@ -793,9 +793,6 @@
 /*****************************/
 /*****************************/
 /*****************************/
-
-
-
 footer{
 	background: #333;
 	color:#aaa;
@@ -1006,7 +1003,45 @@ nav ul:hover, nav a:hover{
 
 }
 
+.recommend{
+	position: relative;
+	top: 800px;
+}
 
+.recommend > h1{
+	margin: 60px 0 30px 0;
+	text-align: center;
+	font-size:25px;
+}
+.recommend img{
+	width:1200px;
+	height: 0;
+	position: absolute;
+	top:100px;
+}
+.recommend:hover img{
+	width:1200px;
+	height:400px;
+	transition: all 1s;
+}
+.main-img img{
+	
+	width:1200px;
+	height:400px;
+}
+.hold{
+	color:#ffc72c;
+}
+p .fr{
+	font-size: 15px;
+	color:#888;
+	margin:-40px 0 -20px 0px;
+}
+p{
+	 
+	 
+
+}
 </style>
 </head>
 <body id="body">
@@ -1118,16 +1153,6 @@ nav ul:hover, nav a:hover{
 	</header>
 
 
-
-
-
-
-
-
-
-
-
-
 	<nav>
 		Menu
 		<a href="#body"><div class="TOP">Top</div></a>
@@ -1154,78 +1179,11 @@ nav ul:hover, nav a:hover{
 
 	
 	<section>
- 	<div class="main-img">
- 		<ul class="ul1"> 		
- 			<img src="./img/title1button.png"  class="main-img-button1">
- 			<li>
- 				<img class="main-img1" src="./img/title1.png">
- 			</li>
- 		</ul>
- 		<ul class="ul2"> 
- 			<img src="./img/title2button.png"  class="main-img-button2">
- 			<li>
- 				<img class="main-img2" src="./img/title2.png">
- 			</li>
- 		</ul>
- 		<ul class="ul3">
- 			<img src="./img/title3button.png"  class="main-img-button3">
- 			<li>
- 				<img class="main-img3" src="./img/title3.png">
- 			</li>
- 		</ul>
- 		<ul class="ul4">
- 			<img src="./img/title4button.png"  class="main-img-button4">
- 			<li>
- 				<img class="main-img4" src="./img/title4.png">
- 			</li>
- 		</ul>
- 		<ul class="ul5">
- 			<img src="./img/title5button.png"  class="main-img-button5">
- 			<li>
- 				<img class="main-img5" src="./img/title5.png">
- 			</li> 			
- 		</ul>
+		<p><span class="fr"><a href="index.html">홈</a>&nbsp; > &nbsp;추천상품</span></p>
+		<div class="main-img">
+ 		<img src="./img/recommend-main.png">
  	</div>
- 	<div class="main2">
- 		<h2>2019년 설레는 여행! 떠나고 싶으신 곳을 빠르게 찾아보세요!</h2>
- 		<div class="main2-table">
- 			<ul class="ul1">
- 				<p class="p1">여행</p>
- 			<div class="box1">
- 				<div class="item1">
- 					<h5>여행지</h5>
- 					<br>
- 					<input type="text"  name=""  placeholder="여행지를 입력해 주세요."><button type="button" class="btn">지역검색</button>
- 				</div>
- 				<div class="item2">
- 					<h5>출발 예정일</h5>
- 					<br>				
- 					<input type="date" name="">					
- 				</div>
- 				<div class="item3">
- 					<p>여름휴가 추천!</p>
- 					<ul>
- 						<li>베니스</li>
- 						<li>보라카이</li>
- 						<li>방콕</li>
- 						<li>삿포로</li>
- 						<li>토론토</li>
- 						<li class="li-right">검색하기</li>
- 					</ul>
- 					
- 					
- 				
- 				</div>
- 			</div>
-
- 			</ul>
- 			<ul class="ul2"><p>항공권</p>
- 				<li><img src="./img/maintable1.PNG"></li></ul>
- 			<ul class="ul3"><p>호텔</p>
- 				<li><img src="./img/maintable2.PNG"></li></ul>
- 		</div>
- 	</div>
- 	<div class="main3">
+<div class="main3">
  		<h1>추천상품</h1>
  		<div class="main3-top">
  			<ul>
@@ -1248,46 +1206,11 @@ nav ul:hover, nav a:hover{
  			</ul>
  		</div>
  	</div>
- 	<div class="main4">
- 		<h1>테마여행</h1>
- 		<ul>
- 			영상으로보는 오사카
- 			<li>
- 				<img src="./img/main4-1.png" class="img1">	
- 			</li>
- 		</ul>
- 		<ul>
- 			라벤더 꽃밭
- 			<li>
- 				<img src="./img/main4-2.png" class="img2">	
- 			</li>
- 		</ul>
- 		<ul>
- 			여름휴가 추천
- 			<li>
- 				<img src="./img/main4-3.png" class="img3">	
- 			</li>
- 		</ul>
- 		<ul>
- 			새로 뜨는 여행지
- 			<li>
- 				<img src="./img/main4-4.png" class="img4">	
- 			</li>
- 		</ul>
- 		
- 	</div>
- 	<div class="main5">
-
- 		<h1><a href="Story.html">여행이야기</a></h1>
- 		<div class="main5-img">
- 		<a href="story.html"><img src="./img/main5-1.jpg"></a>
- 		<a href="story.html"><img src="./img/main5-2.jpg"></a>
- 		<a href="story.html"><img src="./img/main5-3.jpg"></a>
- 		<a href="story.html"><img src="./img/main5-4.jpg"></a>
-
- 	</div>
- </div>
-
+ <div class="recommend">
+ 	<h1>이 달의 최대판매 상품</h1>
+ 	<h1><span class="hold">Hold!<span></h1>
+ 	<img src="./img/recommend.png">
+</div>
  </section>
 	
 	<footer>
